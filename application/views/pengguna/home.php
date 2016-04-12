@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hotelia - Developed with love by TeslaThemes.com</title>
+    <title>Sistem Informasi Peminjaman Buku Teknik Informatika ITS</title>
     <meta name="description" content="Great theme for creative people">
     <!-- Responsive helper -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Apple devices -->
-    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/img/favicon/favicon-apple.png" />
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/img/content_256.png" />
     <!-- 152x152 -->
-    <link rel="icon" href="<?php echo base_url(); ?>assets/img/favicon/favicon.png">
+    <link rel="icon" href="<?php echo base_url(); ?>assets/img/content_256.png">
     <!-- 32x32 or 64x64 -->
 
     <!-- For IE -->
@@ -21,7 +21,7 @@
 
     <!-- For Mobile Windows -->
     <meta name="msapplication-TileColor" content="#D83434">
-    <meta name="msapplication-TileImage" content="<?php echo base_url(); ?>assets/img/favicon/favicon.png">
+    <meta name="msapplication-TileImage" content="<?php echo base_url(); ?>assets/img/content_256.png">
     <!-- 32x32 or 64x64 -->
 
     <!-- Fonts-->
@@ -43,19 +43,8 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-8">
                             <ul class="inline-list uppercase font-small header-meta">
-                                <li><i class="icon-312 font-13x"></i> NY Wall street 25.5</li>
-                                <li><i class="icon-274 font-13x"></i> hotelia@gmail.com</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-6 col-sm-4">
-                            <ul class="inline-list to-right header-social">
-                                <li><a href="#"><i class="icon-528"></i></a>
-                                </li>
-                                <li><a href="#"><i class="icon-556"></i></a>
-                                </li>
-                                <li><a href="#"><i class="icon-537"></i></a>
-                                </li>
+                                <li><i class="icon-312 font-13x"></i> Teknik Informatika, ITS</li>
+                                <li><i class="icon-274 font-13x"></i> sipti@gmail.com</li>
                             </ul>
                         </div>
                     </div>
@@ -71,7 +60,7 @@
                             <!-- Logo Area -->
                             <figure class="identity">
                                 <a href="index.html">
-                                    <img src="img/logo.png" alt="Theme logo">
+                                	<h1>SIPTI</h1>
                                 </a>
                             </figure>
                         </div>
@@ -82,29 +71,8 @@
                                 <!-- .mega-menu helper class ued as switcher -->
                                 <ul class="clean-list to-right">
                                     <!-- .to-right, to-left, .center-me helper class-->
-                                    <li class="current-menu-item"><a href="index.html">Home</a></li>
-                                    <li><a href="history.html">Pages</a>
-                                        <ul>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="restaurant.html">Restaurant</a></li>
-                                            <li><a href="guestbook.html">GuestBook</a></li>
-                                            <li><a href="error.html">Eror 404 page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="rooms.html">Rooms</a>
-                                        <ul>
-                                            <li><a href="room-preview.html">Deluxe room</a></li>
-                                            <li><a href="booking-steps.html">Book a room</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="blog.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog-two-col.html">Blog two col</a></li>
-                                            <li><a href="blog-three-col.html">Blog three col</a></li>
-                                            <li><a href="single-blog.html">Single Post</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contacts.html">Contact</a></li>
+                                    <li class="current-menu-item"><a href="index.html">DAFTAR</a></li>
+                                    <li class="current-menu-item"><a href="index.html">MASUK</a></li>
                                 </ul>
 
                             </nav>
@@ -129,8 +97,8 @@
 			<div class="slider-mask"></div>
 			<div class="simple-slider">
 			    <ul class="clean-list">
-			    	<li><a href="#"><img src="http://placehold.it/1900x576" alt="slide"/></a></li>
-			    	<li><a href="#"><img src="http://placehold.it/1900x576" alt="slide"/></a></li>
+			    	<li><a href="#"><img src="http://www.ucreative.com/wp-content/uploads/2014/08/Photography-Book-Inner-Banner-Home1.png" alt="slide"/></a></li>
+			    	<li><a href="#"><img src="https://jennybishopphotography.files.wordpress.com/2009/03/macbook-1.jpg" alt="slide"/></a></li>
 			    </ul>
 			</div>
 			<div class="container custom-controls">
@@ -161,140 +129,35 @@
 			</div>	
 		</section> <!-- /.slider-box -->
 
-		<section class="box border-bottom book-box" data-stellar-background-ratio="0.5">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="the-title text-center font-300"><i class="icon-141"></i> Make a Reservation</h4>
-						<div class="dark-blue booking-form">
-							<form action="#" class="row no-padding">
-								<div class="col-md-2 col-sm-12">
-									<i class="icon-201"></i>
-									<input type="text" readonly class="room-select" placeholder="Room">
-									<ul class="clean-list font-small">
-										<li>Double</li>
-										<li>Lux</li>
-										<li>Single</li>
-									</ul>
-
-								</div>
-								<div class="col-md-2 col-sm-6">
-									<i class="icon-233"></i>
-									<input type="text" id="check-in" placeholder="Check in">
-								</div>
-								<div class="col-md-2 col-sm-6">
-									<i class="icon-233"></i>
-									<input type="text" id="check-out" placeholder="Check out">
-								</div>
-								<div class="col-md-4 col-sm-12">
-									<input type="text" class="darken text-white" placeholder="Guest/rooms">
-								</div>
-								<div class="col-md-2 col-sm-12 text-right">
-									<button type="submit" class="button-md green hover-dark-green soft-corners">Book Now</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> <!-- /.book-form -->
+		
 		<section class="box border-bottom">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="text-dark-blue text-center fancy-heading">
-							<h1 class="font-700">Facilities</h1>
+							<h1 class="font-700">Daftar</h1>
 							<hr class="text-dark-blue size-30 center-me">
-							<p>What we can offer</p>				
+							<p>Buat akun baru Anda secara gratis</p>				
 						</div>
 					</div>
 				</div> <!-- /.row -->
-				<ul class="clean-list facilities-items text-center row">
-					<li class="col-md-3 col-sm-4">
-						<div class="facility-item">
-							<div class="shape-square aquablue">
-								<figure>
-									<a href="#">
-										<img src="http://placehold.it/800x800" alt="facilities">
-									</a>
-								</figure>
-							</div>
-							<span class="uppercase font-300 text-white facility-text">GYM</span>					
-						</div>
-					</li>
-					<li class="col-md-3 col-sm-4">
-						<div class="facility-item">
-							<div class="shape-square aquablue">
-								<figure>
-									<a href="#">
-										<img src="http://placehold.it/800x800" alt="facilities">
-									</a>
-								</figure>
-							</div>
-							<span class="uppercase font-300 text-white facility-text">SPA</span>					
-						</div>
-					</li>
-					<li class="col-md-3 col-sm-4">
-						<div class="facility-item">
-							<div class="shape-square aquablue">
-								<figure>
-									<a href="#">
-										<img src="http://placehold.it/800x800" alt="facilities">
-									</a>
-								</figure>
-							</div>
-							<span class="uppercase font-300 text-white facility-text">Rooms</span>					
-						</div>
-					</li>
-					<li class="col-md-3 col-sm-4">
-						<div class="facility-item">
-							<div class="shape-square aquablue">
-								<figure>
-									<a href="#">
-										<img src="http://placehold.it/800x800" alt="facilities">
-									</a>
-								</figure>
-							</div>
-							<span class="uppercase font-300 text-white facility-text">Italian food</span>					
-						</div>
-					</li>
-					<li class="col-md-3 col-sm-4">
-						<div class="facility-item">
-							<div class="shape-square aquablue">
-								<figure>
-									<a href="#">
-										<img src="http://placehold.it/800x800" alt="facilities">
-									</a>
-								</figure>
-							</div>
-							<span class="uppercase font-300 text-white facility-text">Business meetings</span>					
-						</div>
-					</li>
-					<li class="col-md-3 col-sm-4">
-						<div class="facility-item">
-							<div class="shape-square aquablue">
-								<figure>
-									<a href="#">
-										<img src="http://placehold.it/800x800" alt="facilities">
-									</a>
-								</figure>
-							</div>
-							<span class="uppercase font-300 text-white facility-text">Fourchette</span>					
-						</div>
-					</li>
-					<li class="col-md-3 col-sm-4">
-						<div class="facility-item">
-							<div class="shape-square aquablue">
-								<figure>
-									<a href="#">
-										<img src="http://placehold.it/800x800" alt="facilities">
-									</a>
-								</figure>
-							</div>
-							<span class="uppercase font-300 text-white facility-text">Parking</span>					
-						</div>
-					</li>
-				</ul>
+				<form action="#" class="contact-form row">
+							<p class="col-md-12">
+								<input type="text" name="name" placeholder="Name">
+							</p>
+							<p class="col-md-12">
+								<input type="email" name="email" placeholder="E-mail">
+							</p>
+							<p class="col-md-12">
+								<input type="email" name="web" placeholder="Telephone">
+							</p>
+							<p class="col-md-12">
+								<textarea name="mess" placeholder="Message"></textarea>
+							</p>
+							<p class="col-md-12">
+								<button type="submit" class="button-md uppercase to-right hover-dark-green green text-white soft-corners long-button"><i class="icon-274"></i> Write</button>
+							</p>
+						</form>
 			</div> <!-- /.container -->
 		</section> <!-- /.facilities -->
 
@@ -303,286 +166,43 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="text-dark-blue text-center fancy-heading">
-							<h1 class="font-700">Rooms</h1>
+							<h1 class="font-700">Masuk</h1>
 							<hr class="text-dark-blue size-30 center-me">
-							<p>what kind of rooms we have</p>				
+							<p>Masuk dan akses akun Anda</p>				
 						</div>
 					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<span id="controls-carousel">
-							<a href="#" class="prev-nav soft-corners text-grey hover-grey" data-target="prev"><i class="icon-83"></i></a>
-							<a href="#" class="next-nav soft-corners text-grey hover-grey" data-target="next"><i class="icon-90"></i></a>
-						</span>
-						<div id="rooms-slider" class="row">
-							<ul class="clean-list rooms-items">
-								<li>
-									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
-										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
-											<figcaption class="aquablue text-white">
-												<ul class="inline-list center-me amenities">
-													<li><i class="icon-326 font-13x"></i></li>
-													<li><i class="icon-391 font-13x"></i></li>
-													<li><i class="icon-426 font-13x"></i></li>
-													<li><i class="icon-217 font-13x"></i></li>
-													<li><i class="icon-219 font-13x"></i></li>
-													<li><i class="icon-237 font-13x"></i></li>
-												</ul>
-											</figcaption>
-										</figure>
-										<div class="rooms-description">
-											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
-											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
-										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
-											<figcaption class="aquablue text-white">
-												<ul class="inline-list center-me amenities">
-													<li><i class="icon-326 font-13x"></i></li>
-													<li><i class="icon-391 font-13x"></i></li>
-													<li><i class="icon-426 font-13x"></i></li>
-													<li><i class="icon-217 font-13x"></i></li>
-													<li><i class="icon-219 font-13x"></i></li>
-													<li><i class="icon-237 font-13x"></i></li>
-												</ul>
-											</figcaption>
-										</figure>
-										<div class="rooms-description">
-											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
-											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
-										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
-											<figcaption class="aquablue text-white">
-												<ul class="inline-list center-me amenities">
-													<li><i class="icon-326 font-13x"></i></li>
-													<li><i class="icon-391 font-13x"></i></li>
-													<li><i class="icon-426 font-13x"></i></li>
-													<li><i class="icon-217 font-13x"></i></li>
-													<li><i class="icon-219 font-13x"></i></li>
-													<li><i class="icon-237 font-13x"></i></li>
-												</ul>
-											</figcaption>
-										</figure>
-										<div class="rooms-description">
-											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
-											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
-										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
-											<figcaption class="aquablue text-white">
-												<ul class="inline-list center-me amenities">
-													<li><i class="icon-326 font-13x"></i></li>
-													<li><i class="icon-391 font-13x"></i></li>
-													<li><i class="icon-426 font-13x"></i></li>
-													<li><i class="icon-217 font-13x"></i></li>
-													<li><i class="icon-219 font-13x"></i></li>
-													<li><i class="icon-237 font-13x"></i></li>
-												</ul>
-											</figcaption>
-										</figure>
-										<div class="rooms-description">
-											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
-											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
-										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
-											<figcaption class="aquablue text-white">
-												<ul class="inline-list center-me amenities">
-													<li><i class="icon-326 font-13x"></i></li>
-													<li><i class="icon-391 font-13x"></i></li>
-													<li><i class="icon-426 font-13x"></i></li>
-													<li><i class="icon-217 font-13x"></i></li>
-													<li><i class="icon-219 font-13x"></i></li>
-													<li><i class="icon-237 font-13x"></i></li>
-												</ul>
-											</figcaption>
-										</figure>
-										<div class="rooms-description">
-											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
-											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
-										</div>
-									</div>
-								</li>
-							</ul> <!-- /.rooms-items -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="box box-discover-us" data-stellar-background-ratio="0.1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="text-center text-white">
-							<h1 class="font-100">Be our guest</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<br>
-							<a href="http://vimeo.com/15202735" class="text-white hover-text-aquablue zoom-image" rel="vimeo">
-								<i class="icon-485 font-5x"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-
-		<footer class="main-footer">
-			<!-- Footer widgets -->
-			<div class="big-footer box darken-less">
-				<div class="container">
-					<div class="footer-sidebar row">
-
-						<div class="col-md-4 col-sm-6 widget">
-							<figure>
-								<a href="#">
-									<img src="img/logo-corp.png" alt="logo footer">
-								</a>
-							</figure>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus a incidunt, amet illum maiores nihil. Nihil repellat dolorum fugit doloribus earum!
+				</div> <!-- /.row -->
+				<form action="#" class="contact-form row">
+							<p class="col-md-12">
+								<input type="text" name="name" placeholder="Name">
 							</p>
-
-							<ul class="clean-list contact-info text-dark-blue uppercase">
-								<li><i class="icon-338 font-2x"></i> <b>Address: </b> West bridge, LA,  New York 225 of 254/5A</li>
-								<li><i class="icon-274 font-2x"></i> <b>E-mail: </b> <a href="mailto:otelia@gmail.com">otelia@gmail.com</a></li>
-								<li><i class="icon-274 font-2x"></i> <b>E-mail: </b> <a href="mailto:hotelia@gmail.com">hotelia@gmail.com</a></li>
-								<li><i class="icon-402 font-2x"></i> <b>Phone: </b> (001) 777 555 888</li>
-								<li><i class="icon-402 font-2x"></i> <b>Phone: </b> (001) 777 555 999</li>
-							</ul>
-						</div>
-						
-						<div class="col-md-4 col-sm-6 widget post-widget">
-							<h4>Follow Hotelia</h4>
-							<ul class="inline-list social-links">
-								<li>
-									<a href="#" class="social-facebook shape-square font-2x soft-corners"><i class="icon-528"></i></a>
-								</li>
-								<li>
-									<a href="#" class="social-twitter shape-square font-2x soft-corners"><i class="icon-556"></i></a>
-								</li>
-								<li>
-									<a href="#" class="social-foursquare shape-square font-2x soft-corners"><i class="icon-530"></i></a>
-								</li>
-								<li>
-									<a href="#" class="social-pinterest shape-square font-2x text-white soft-corners"><i class="icon-545"></i></a>
-								</li>
-							</ul>
-							<div class="subscribe-wrapper">
-								<form action="#" class="subscribe-form row">
-									<div class="col-md-12">
-										<h4>Newsletter Subscribe</h4>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda inventore ex laborum numquam at iusto facere.</p>
-									</div>
-									<p class="col-md-12">
-										<input type="text" name="subscribe">
-									</p>
-									<p class="col-md-12">
-										<button type="submit" class="button-md green hover-dark-green full-size">Submit</button>
-									</p>
-								</form>
-							</div>							
-						</div>
-						<div class="col-md-4 col-sm-12 widget">
-							<h4>Flickr Photo</h4>
-							<ul class="flickr-widget clean-list row" data-userid="36587311@N08" data-items="6">
-							</ul>
-							<div class="usefull-links">
-								<h4>Usefull link</h4>
-								<ul class="">
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">About us</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Help Center</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Careers</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Global Sites</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Privacy</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Travel</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Affiliate </a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Businesses</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Contact Support</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Shopping </a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Site Map</a>
-									</li>
-									<li class="col-md-4 col-sm-4 col-xs-6">
-										<a href="#">Investor Relations</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div><!-- /.row -->
-				</div><!-- /.container -->
-			</div><!-- /.big-footer -->
+							<p class="col-md-12">
+								<input type="email" name="email" placeholder="E-mail">
+							</p>
+							<p class="col-md-12">
+								<input type="email" name="web" placeholder="Telephone">
+							</p>
+							<p class="col-md-12">
+								<textarea name="mess" placeholder="Message"></textarea>
+							</p>
+							<p class="col-md-12">
+								<button type="submit" class="button-md uppercase to-right hover-dark-green green text-white soft-corners long-button"><i class="icon-274"></i> Write</button>
+							</p>
+						</form>
+			</div> <!-- /.container -->
+		</section> <!-- /.facilities -->
+		
+		<footer class="main-footer">
 			<!-- Copyright section -->
 			<div class="small-footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<p class="copyright center-me uppercase font-small">
-								<span>copyright 2013</span>
-								<a href="#">hotelia</a>
-								<span> designed by</span>
-								<a href="http://teslathemes.com">Teslathemes</a>	
+								<span>Rekayasa Kebutuhan 2016</span>
+								<a href="#">sipti</a>
+								<span> Didesain oleh</span>
+								<span>Kelompok 9</span>	
 							</p>
 						</div>
 					</div> <!-- /.row -->
