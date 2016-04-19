@@ -41,9 +41,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="text-dark-blue text-center fancy-heading">
-							<h1 class="font-700">Rooms</h1>
+							<h1 class="font-700">Books</h1>
 							<hr class="text-dark-blue size-30 center-me">
-							<p>what kind of rooms we have</p>				
+							<p>what kind of books we have</p>				
 						</div>
 					</div>
 				</div>
@@ -58,9 +58,9 @@
 							<ul class="clean-list rooms-items">
 								<li>
 									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
+										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Engineering Mathematics: 7th Edition</a></h3>
 										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
+											<a href="http://ecx.images-amazon.com/images/I/51prssbVfrL._SX390_BO1,204,203,200_.jpg" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://ecx.images-amazon.com/images/I/51prssbVfrL._SX390_BO1,204,203,200_.jpg" alt="portfolio item"></a>
 											<figcaption class="aquablue text-white">
 												<ul class="inline-list center-me amenities">
 													<li><i class="icon-326 font-13x"></i></li>
@@ -83,9 +83,9 @@
 								</li>
 								<li>
 									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
+										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Database Management Systems, 3rd Edition</a></h3>
 										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
+											<a href="http://ecx.images-amazon.com/images/I/51AcjY2mWgL._SX358_BO1,204,203,200_.jpg" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://ecx.images-amazon.com/images/I/51AcjY2mWgL._SX358_BO1,204,203,200_.jpg" alt="portfolio item"></a>
 											<figcaption class="aquablue text-white">
 												<ul class="inline-list center-me amenities">
 													<li><i class="icon-326 font-13x"></i></li>
@@ -108,9 +108,9 @@
 								</li>
 								<li>
 									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Standard Suite</a></h3>
+										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Head First Design Patterns</a></h3>
 										<figure>
-											<a href="http://placehold.it/600x600" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://placehold.it/600x600" alt="portfolio item"></a>
+											<a href="http://shop.oreilly.com/product/9780596007126/ViewLarger.do?sortby=publicationDate" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://shop.oreilly.com/product/9780596007126/ViewLarger.do?sortby=publicationDate" alt="portfolio item"></a>
 											<figcaption class="aquablue text-white">
 												<ul class="inline-list center-me amenities">
 													<li><i class="icon-326 font-13x"></i></li>
