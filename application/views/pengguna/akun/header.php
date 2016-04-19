@@ -71,9 +71,15 @@
                                 <!-- .mega-menu helper class ued as switcher -->
                                 <ul class="clean-list to-right">
                                     <!-- .to-right, to-left, .center-me helper class-->
-                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/home_pengguna">HOME</a></li>
-                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/daftar_pengguna">DAFTAR</a></li>
-                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/masuk_pengguna">MASUK</a></li>
+                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/home_pengguna">BUKU</a></li>
+                                        <ul>
+                                            <li><a href="gallery.html">Daftarkan Buku</a></li>
+                                            <li><a href="restaurant.html">Restaurant</a></li>
+                                            <li><a href="guestbook.html">GuestBook</a></li>
+                                            <li><a href="error.html">Eror 404 page</a></li>
+                                        </ul>
+                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/daftar_pengguna">CARI BUKU</a></li>
+                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/masuk_pengguna">PROFIL</a></li>
                                 </ul>
 
                             </nav>
