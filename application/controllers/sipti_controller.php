@@ -32,4 +32,9 @@ class sipti_controller extends CI_Controller {
 	{
 		$this->load->view('pengguna/header')->view('pengguna/masuk')->view('pengguna/footer');
 	}
+
+	public function daftarkan_buku()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/buku/daftarkan buku')->view('pengguna/akun/footer');
+	}
 }
