@@ -71,15 +71,29 @@
                                 <!-- .mega-menu helper class ued as switcher -->
                                 <ul class="clean-list to-right">
                                     <!-- .to-right, to-left, .center-me helper class-->
-                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/home_pengguna">BUKU</a></li>
+                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/home_pengguna">BUKU</a>
                                         <ul>
-                                            <li><a href="gallery.html">Daftarkan Buku</a></li>
-                                            <li><a href="restaurant.html">Restaurant</a></li>
-                                            <li><a href="guestbook.html">GuestBook</a></li>
-                                            <li><a href="error.html">Eror 404 page</a></li>
+                                            <li><a href="">Daftarkan Buku</a></li>
+                                            <li><a href="">Lihat Daftar Buku</a></li>
                                         </ul>
-                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/daftar_pengguna">CARI BUKU</a></li>
-                                    <li class="current-menu-item"><a href="<?php echo base_url(); ?>sipti_controller/masuk_pengguna">PROFIL</a></li>
+                                    </li>
+                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/daftar_pengguna">CARI BUKU</a></li>
+                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/daftar_pengguna">PEMINJAMAN</a>
+                                        <ul>
+                                            <li><a href="">Daftar Calon Peminjam</a></li>
+                                            <li><a href="">Pilih Calon Peminjam</a></li>
+                                            <li><a href="">Verifikasi Peminjam</a></li>
+                                            <li><a href="">Pengembalian Buku</a></li>
+                                            <li><a href="">Verifikasi Penerimaan</a></li>
+                                        </ul>
+                                    
+                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/masuk_pengguna">PROFIL</a>
+                                        <ul>
+                                            <li><a href="">Lihat Profil</a></li>
+                                            <li><a href="">Ubah Profil</a></li>
+                                        </ul>
+                                    
+                                    </li>
                                 </ul>
 
                             </nav>
