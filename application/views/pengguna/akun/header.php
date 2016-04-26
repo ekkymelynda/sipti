@@ -44,7 +44,7 @@
                         <div class="col-md-6 col-sm-8">
                             <ul class="inline-list uppercase font-small header-meta">
                                 <li><i class="icon-312 font-13x"></i> Teknik Informatika, ITS</li>
-                                <li><i class="icon-274 font-13x"></i> sipti@gmail.com</li>
+                                <li><i class="icon-274 font-13x"></i> sipti@its.ac.id</li>
                             </ul>
                         </div>
                     </div>
