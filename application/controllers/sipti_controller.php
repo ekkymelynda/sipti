@@ -42,4 +42,9 @@ class sipti_controller extends CI_Controller {
 	{
 		$this->load->view('pengguna/akun/header')->view('pengguna/akun/buku/lihat daftar buku')->view('pengguna/akun/footer');
 	}
+
+	public function lihat_semua_buku()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/cari buku/lihat semua buku')->view('pengguna/akun/footer');
+	}
 }

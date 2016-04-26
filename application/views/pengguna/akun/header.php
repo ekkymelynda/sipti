@@ -77,7 +77,7 @@
                                             <li><a href="<?php echo base_url(); ?>sipti_controller/lihat_daftar_buku">Lihat Daftar Buku</a></li>
                                         </ul>
                                     </li>
-                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/cari_buku">CARI BUKU</a></li>
+                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/lihat_semua_buku">CARI BUKU</a></li>
                                     <li ><a href="">PEMINJAMAN</a>
                                         <ul>
                                             <li><a href="">Daftar Calon Peminjam</a></li>
