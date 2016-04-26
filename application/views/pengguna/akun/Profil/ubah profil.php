@@ -77,7 +77,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12 col-md-offset-5">
-									<a href="#" class="button-md orange text-dark hover-black" data-target="prev" style="color:white;">Ubah</a>
+									<a href="#" class="button-md black text-dark hover-orange" data-target="prev" style="color:white;">Ubah</a>
 								</div>
 							</div>
 							</form>
