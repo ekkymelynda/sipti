@@ -80,7 +80,7 @@
                                     <li ><a href="<?php echo base_url(); ?>sipti_controller/lihat_semua_buku">CARI BUKU</a></li>
                                     <li ><a href="">PEMINJAMAN</a>
                                         <ul>
-                                            <li><a href="">Daftar Calon Peminjam</a></li>
+                                            <li><a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku">Koleksi Buku</a></li>
                                             <li><a href="">Pilih Calon Peminjam</a></li>
                                             <li><a href="">Verifikasi Peminjam</a></li>
                                             <li><a href="">Pengembalian Buku</a></li>
@@ -90,7 +90,7 @@
                                     <li ><a href="">PROFIL</a>
                                         <ul>
                                             <li><a href="<?php echo base_url(); ?>sipti_controller/halaman_profil">Lihat Profil</a></li>
-                                            <li><a href="<?php echo base_url(); ?>sipti_controller/ubah_profil"">Ubah Profil</a></li>
+                                            <li><a href="<?php echo base_url(); ?>sipti_controller/ubah_profil">Ubah Profil</a></li>
                                             <li><a href="<?php echo base_url(); ?>sipti_controller/halaman_utama_pengguna">Keluar</a></li>
                                         </ul>
                                     

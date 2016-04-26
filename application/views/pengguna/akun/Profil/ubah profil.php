@@ -48,7 +48,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<input type="text" name="email" placeholder="E-mail" value="081234567890">
+												<input type="tel" name="email" placeholder="E-mail" value="081234567890">
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">
