@@ -59,7 +59,7 @@
                         <div class="col-md-4 col-xs-8">
                             <!-- Logo Area -->
                             <figure class="identity">
-                                <a href="<?php echo base_url(); ?>sipti_controller/home_pengguna">
+                                <a href="<?php echo base_url(); ?>sipti_controller/halaman_utama_pengguna">
                                     <h1>SIPTI</h1>
                                 </a>
                             </figure>
@@ -71,7 +71,7 @@
                                 <!-- .mega-menu helper class ued as switcher -->
                                 <ul class="clean-list to-right">
                                     <!-- .to-right, to-left, .center-me helper class-->
-                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/home_pengguna">HOME</a></li>
+                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/halaman_utama_pengguna">HALAMAN UTAMA</a></li>
                                     <li ><a href="<?php echo base_url(); ?>sipti_controller/daftar_pengguna">DAFTAR</a></li>
                                     <li ><a href="<?php echo base_url(); ?>sipti_controller/masuk_pengguna">MASUK</a></li>
                                 </ul>

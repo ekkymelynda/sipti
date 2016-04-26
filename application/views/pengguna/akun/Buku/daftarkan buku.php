@@ -12,7 +12,7 @@
 				</div> <!-- /.row -->
 
 					<div class="col-md-12">
-						<form action="#" class="contact-form row">
+						<form action="<?php echo base_url(); ?>sipti_controller/lihat_daftar_buku" class="contact-form row">
 							<p class="col-md-12">
 								<input type="text" name="name" placeholder="ID">
 							</p>

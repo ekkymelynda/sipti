@@ -18,9 +18,9 @@ class sipti_controller extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function home_pengguna()
+	public function halaman_utama_pengguna()
 	{
-		$this->load->view('pengguna/header')->view('pengguna/home')->view('pengguna/footer');
+		$this->load->view('pengguna/header')->view('pengguna/halaman_utama')->view('pengguna/footer');
 	}
 
 	public function daftar_pengguna()
@@ -36,5 +36,10 @@ class sipti_controller extends CI_Controller {
 	public function daftarkan_buku()
 	{
 		$this->load->view('pengguna/akun/header')->view('pengguna/akun/buku/daftarkan buku')->view('pengguna/akun/footer');
+	}
+
+	public function lihat_daftar_buku()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/buku/lihat daftar buku')->view('pengguna/akun/footer');
 	}
 }
