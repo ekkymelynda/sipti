@@ -89,8 +89,8 @@
                                     
                                     <li ><a href="">PROFIL</a>
                                         <ul>
-                                            <li><a href="">Lihat Profil</a></li>
-                                            <li><a href="">Ubah Profil</a></li>
+                                            <li><a href="<?php echo base_url(); ?>sipti_controller/halaman_profil">Lihat Profil</a></li>
+                                            <li><a href="<?php echo base_url(); ?>sipti_controller/ubah_profil"">Ubah Profil</a></li>
                                             <li><a href="<?php echo base_url(); ?>sipti_controller/halaman_utama_pengguna">Keluar</a></li>
                                         </ul>
                                     
