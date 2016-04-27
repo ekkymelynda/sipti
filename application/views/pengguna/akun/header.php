@@ -71,6 +71,7 @@
                                 <!-- .mega-menu helper class ued as switcher -->
                                 <ul class="clean-list to-right">
                                     <!-- .to-right, to-left, .center-me helper class-->
+                                    <li ><a href="<?php echo base_url(); ?>sipti_controller/lihat_semua_buku">HALAMAN AWAL</a></li>
                                     <li ><a href="">BUKU</a>
                                         <ul>
                                             <li><a href="<?php echo base_url(); ?>sipti_controller/daftarkan_buku">Daftarkan Buku</a></li>
