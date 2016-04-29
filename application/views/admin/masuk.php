@@ -7,7 +7,7 @@
   <meta name="description" content="bootstrap admin template">
   <meta name="author" content="">
 
-  <title>Sistem Informasi Peminjaman Buku Teknik Informatika ITS</title>
+  <title>Sistem Informasi Peminjaman Buku Teknik Informatika</title>
 
   <link rel="apple-touch-icon" href="<?php echo base_url(); ?>assets/img/content_256.png">
   <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/content_256.png">
@@ -57,15 +57,15 @@
 
 
   <!-- Page -->
-  <div class="page animsition vertical-align text-center" data-animsition-in="fade-in"
+  <div class="page vertical-align text-center" data-animsition-in="fade-in"
   data-animsition-out="fade-out">
     <div class="page-content vertical-align-middle">
       <div class="brand">
-        <img class="brand-img" src="<?php echo base_url(); ?>assets/img/content_256.png" width="100px" hight="100px" alt="...">
+        <img class="brand-img" src="<?php echo base_url(); ?>assets/img/content_256.png" width="50px" hight="50px" alt="...">
         <h2 class="brand-text">Sipti</h2>
       </div>
       <p>Masuk ke halaman akun Anda</p>
-      <form method="post" action="<?php echo base_url(); ?>sipti_controller/pemilik_login">
+      <form method="post" action="<?php echo base_url(); ?>sipti_controller/profil_lihat">
         <div class="form-group">
           <label class="sr-only" for="inputName">NRP</label>
           <input type="text" class="form-control" id="inputName" name="" placeholder="NRP">
@@ -80,7 +80,7 @@
             <input type="checkbox" id="inputCheckbox" name="checkbox">
             <label for="inputCheckbox">Ingat saya</label>
           </div>
-          <a class="pull-right" href="<?php echo base_url(); ?>sipti_controller/halaman_utama_pengguna">Halaman Utama</a>
+          <a class="pull-right" href="<?php echo base_url(); ?>sipti_controller/halaman_utama">Halaman Utama</a>
         </div>
         <button type="submit" class="btn btn-primary btn-block">Masuk</button>
       </form>
@@ -88,7 +88,9 @@
 
       <footer class="page-copyright">
         <p>WEBSITE oleh Kelompok 9</p>
-        <p>© 2016. Sistem Informasi Peminjaman Buku Teknik Informatika ITS.</p>
+        <p>© 2016</p>
+        <p>Sistem Informasi Peminjaman Buku Teknik Informatika</p>
+        
       </footer>
     </div>
   </div>

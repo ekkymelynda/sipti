@@ -1,6 +1,6 @@
 <!-- Footer -->
   <footer class="site-footer">
-    <span class="site-footer-legal">© 2016 Sistem Informasi Peminjaman Buku Teknik Informatika ITS</span>
+    <span class="site-footer-legal">© 2016 Sistem Informasi Peminjaman Buku Teknik Informatika</span>
     <div class="site-footer-right">
       Dibuat <i class="red-600 wb wb-heart"></i> oleh Kelompok 9
     </div>

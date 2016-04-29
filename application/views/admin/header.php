@@ -9,34 +9,34 @@
   <meta name="description" content="bootstrap admin template">
   <meta name="author" content="">
 
-  <title>Sistem Informasi Peminjaman Buku Teknik Informatika ITS</title>
+  <title>Sistem Informasi Peminjaman Buku Teknik Informatika</title>
 
-  <link rel="apple-touch-icon" href="<?php  echo base_url(); ?>assets/img/content_256.png">
-  <link rel="shortcut icon" href="<?php  echo base_url(); ?>assets/img/content_256.png">
-
+  <link rel="apple-touch-icon" href="<?php echo base_url(); ?>assets/img/content_256.png">
+  <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/content_256.png">
+  
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/css/bootstrap-extend.min.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/css/site.min.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/css/bootstrap-extend.min.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/css/site.min.css">
 
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/animsition/animsition.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/asscrollable/asScrollable.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/switchery/switchery.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/intro-js/introjs.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/slidepanel/slidePanel.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/flag-icon-css/flag-icon.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/animsition/animsition.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/asscrollable/asScrollable.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/switchery/switchery.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/intro-js/introjs.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/slidepanel/slidePanel.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/flag-icon-css/flag-icon.css">
 
   <!-- Plugin -->
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/datatables-bootstrap/dataTables.bootstrap.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/datatables-fixedheader/dataTables.fixedHeader.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/datatables-responsive/dataTables.responsive.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/datatables-bootstrap/dataTables.bootstrap.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/datatables-fixedheader/dataTables.fixedHeader.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/datatables-responsive/dataTables.responsive.css">
 
-  <link rel="stylesheet" href="../../assets/vendor/jquery-wizard/jquery-wizard.css">
-  <link rel="stylesheet" href="../../assets/vendor/formvalidation/formValidation.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/assets/vendor/jquery-wizard/jquery-wizard.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/vendor/formvalidation/formValidation.css">
 
   <!-- Fonts -->
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/fonts/web-icons/web-icons.min.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/fonts/brand-icons/brand-icons.min.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/fonts/web-icons/web-icons.min.css">
+  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets1/fonts/brand-icons/brand-icons.min.css">
   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
 
   <!-- Inline -->
@@ -62,8 +62,8 @@
     <![endif]-->
 
   <!-- Scripts -->
-  <script src="<?php  echo base_url(); ?>assets/vendor/modernizr/modernizr.js"></script>
-  <script src="<?php  echo base_url(); ?>assets/vendor/breakpoints/breakpoints.js"></script>
+  <script src="<?php  echo base_url(); ?>assets1/vendor/modernizr/modernizr.js"></script>
+  <script src="<?php  echo base_url(); ?>assets1/vendor/breakpoints/breakpoints.js"></script>
   <script>
     Breakpoints();
   </script>
@@ -91,7 +91,7 @@
         <i class="icon wb-search" aria-hidden="true"></i>
       </button>
       <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="">
-        <img class="navbar-brand-logo" src="<?php  echo base_url(); ?>assets/img/content_256.png" title="Sistem Informasi Jual Beli Toko Djondol Pelangi">
+        <img class="navbar-brand-logo" src="<?php  echo base_url(); ?>assets/img/content_256.png" title="Sistem Informasi Peminjaman Buku Teknik Informatika">
         <span class="navbar-brand-text"> Sipti</span>
       </div>
     </div>
@@ -125,7 +125,7 @@
         <!-- Navbar Toolbar Right -->
         <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
           <li role="presentation">
-            <a href="<?php echo base_url(); ?>login/login_admin" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i> Keluar</a>
+            <a href="<?php echo base_url(); ?>sipti_controller/login_admin" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i> Keluar</a>
           </li>    
         </ul>
         <!-- End Navbar Toolbar Right -->
@@ -164,7 +164,7 @@
               </a>
               <ul class="site-menu-sub">
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>pemilik/pemilik_lihat" data-slug="uikit-colors">
+                  <a class="animsition-link" href="<?php echo base_url(); ?>sipti_controller/profil_lihat" data-slug="uikit-colors">
                     <i class="site-menu-icon " aria-hidden="true"></i>
                     <span class="site-menu-title">Lihat</span>
                   </a>
@@ -179,7 +179,7 @@
               </a>
               <ul class="site-menu-sub">
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>pegawai/pegawai_lihat" data-slug="uikit-colors">
+                  <a class="animsition-link" href="<?php echo base_url(); ?>sipti_controller/pengguna_lihat" data-slug="uikit-colors">
                     <i class="site-menu-icon " aria-hidden="true"></i>
                     <span class="site-menu-title">Lihat</span>
                   </a>
@@ -194,7 +194,7 @@
               </a>
               <ul class="site-menu-sub">
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>supplier/supplier_lihat" data-slug="advanced-lightbox">
+                  <a class="animsition-link" href="<?php echo base_url(); ?>sipti_controller/buku_lihat" data-slug="advanced-lightbox">
                     <i class="site-menu-icon " aria-hidden="true"></i>
                     <span class="site-menu-title">Lihat</span>
                   </a>
@@ -204,12 +204,12 @@
             <li class="site-menu-item has-sub">
               <a href="javascript:void(0)" data-slug="advanced">
                 <i class="site-menu-icon wb-hammer" aria-hidden="true"></i>
-                <span class="site-menu-title">Transaksi Peminjaman</span>
+                <span class="site-menu-title">Transaksi</span>
                 <span class="site-menu-arrow"></span>
               </a>
               <ul class="site-menu-sub">
                 <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>pembelian/pembelian_lihat" data-slug="advanced-lightbox">
+                  <a class="animsition-link" href="<?php echo base_url(); ?>sipti_controller/transaksi_lihat" data-slug="advanced-lightbox">
                     <i class="site-menu-icon " aria-hidden="true"></i>
                     <span class="site-menu-title">Lihat</span>
                   </a>
