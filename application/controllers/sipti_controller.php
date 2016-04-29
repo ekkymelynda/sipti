@@ -81,4 +81,24 @@ class sipti_controller extends CI_Controller {
 	{
 		$this->load->view('admin/masuk');
 	}
+
+	public function profil_lihat()
+	{
+		$this->load->view('admin/header')->view('admin/profil/lihat')->view('admin/footer');
+	}
+
+	public function buku_lihat()
+	{
+		$this->load->view('admin/header')->view('admin/buku/lihat')->view('admin/footer');
+	}
+
+	public function pengguna_lihat()
+	{
+		$this->load->view('admin/header')->view('admin/pengguna/lihat')->view('admin/footer');
+	}
+
+	public function transaksi_lihat()
+	{
+		$this->load->view('admin/header')->view('admin/transaksi/lihat')->view('admin/footer');
+	}
 }
