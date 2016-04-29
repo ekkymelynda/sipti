@@ -95,7 +95,7 @@
 										</div>
 									</div>
 									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
-									<a href="single-blog.html" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
+									<a href="<?php echo base_url(); ?>sipti_controller/lihat_peminjam" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
 								</div>
 							</div>
 						</article>
@@ -182,7 +182,7 @@
 										</div>
 									</div>
 									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
-									<a href="single-blog.html" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
+									<a href="<?php echo base_url(); ?>sipti_controller/lihat_peminjam" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
 								</div>
 							</div>
 						</article>

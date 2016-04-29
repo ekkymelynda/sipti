@@ -14,7 +14,7 @@
     <!-- 152x152 -->
     <link rel="icon" href="<?php echo base_url(); ?>assets/img/content_256.png">
     <!-- 32x32 or 64x64 -->
-
+    
     <!-- For IE -->
     <!--[if IE]><link rel="shortcut icon" href="img/favicon/favicon.ico"><![endif]-->
     <!-- 16x16 -->

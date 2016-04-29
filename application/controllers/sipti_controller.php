@@ -67,4 +67,8 @@ class sipti_controller extends CI_Controller {
 	{
 		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/ubah buku')->view('pengguna/akun/footer');
 	}
+	public function lihat_peminjam()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/lihat peminjam')->view('pengguna/akun/footer');
+	}
 }
