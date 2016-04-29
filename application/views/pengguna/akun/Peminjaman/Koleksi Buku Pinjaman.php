@@ -94,7 +94,10 @@
 											5 hari
 										</div>
 									</div>
-									<a href="" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Verifikasi</a>
+									<div style="text-align:center;">
+										<a href="" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi</a>
+									</div>
+									
 								</div>
 							</div>
 						</article>
@@ -180,7 +183,9 @@
 											7 hari
 										</div>
 									</div>
-									<a href="" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Verifikasi</a>
+									<div style="text-align:center;">
+										<a href="" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi</a>
+									</div>
 								</div>
 							</div>
 						</article>

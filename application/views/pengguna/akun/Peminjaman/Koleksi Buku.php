@@ -94,8 +94,15 @@
 											Dipinjam
 										</div>
 									</div>
-									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
-									<a href="<?php echo base_url(); ?>sipti_controller/lihat_peminjam" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
+									<div style="text-align:center;">
+										<a style="width:150px; text-align:center;" href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-left soft-corners text-white button-sm hover-orange blue">Ubah</a>
+										<a style="width:150px; text-align:center;" href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-white button-sm hover-orange blue">Verifikasi</a>
+									</div>
+									<div style="text-align:center;">
+										<a style="margin-left:auto; margin-right:auto;" href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more soft-corners text-white button-sm hover-orange blue">Lihat Peminjaman</a>
+
+									</div>
+									
 								</div>
 							</div>
 						</article>
@@ -181,8 +188,14 @@
 											Tidak Dipinjam
 										</div>
 									</div>
-									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
-									<a href="<?php echo base_url(); ?>sipti_controller/lihat_peminjam" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
+									<div style="text-align:center;">
+										<a style="width:150px; text-align:center;" href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-left soft-corners text-white button-sm hover-orange blue">Ubah</a>
+										<a style="width:150px; text-align:center;"  class="read-more to-right soft-corners text-white button-sm hover-orange blue">Verifikasi</a>
+									</div>
+									<div style="text-align:center;">
+										<a style="margin-left:auto; margin-right:auto;" href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more soft-corners text-white button-sm hover-orange blue">Lihat Peminjaman</a>
+
+									</div>
 								</div>
 							</div>
 						</article>
@@ -208,6 +221,14 @@
 	</div> <!-- /.container -->
 </section> <!-- /.blog-box -->
 </div><!-- /.boxed-view -->
+
+<script type="text/javascript">
+	function verifikasi()
+	{
+
+		swal("Good job!", "You clicked the button!", "success");
+	}
+</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/plugins.js"></script>

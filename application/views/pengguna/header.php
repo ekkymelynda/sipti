@@ -30,8 +30,11 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap-responsive.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/screen.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/sweetalert.css">
 
     <script src="<?php echo base_url(); ?>assets/js/modernizr.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/sweetalert.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/sweetalert-dev.js"></script>
 </head>
 
 <body>
