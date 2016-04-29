@@ -14,7 +14,7 @@
     <!-- 152x152 -->
     <link rel="icon" href="<?php echo base_url(); ?>assets/img/content_256.png">
     <!-- 32x32 or 64x64 -->
-    
+
     <!-- For IE -->
     <!--[if IE]><link rel="shortcut icon" href="img/favicon/favicon.ico"><![endif]-->
     <!-- 16x16 -->
@@ -82,7 +82,7 @@
                                     <li ><a href="">PEMINJAMAN</a>
                                         <ul>
                                             <li><a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku">Koleksi Buku</a></li>
-                                            <li><a href="">Pilih Calon Peminjam</a></li>
+                                            <li><a href="<?php echo base_url(); ?>sipti_controller/koleksi_bukupinjaman">Koleksi Buku Pinjaman</a></li>
                                             <li><a href="">Verifikasi Peminjam</a></li>
                                             <li><a href="">Pengembalian Buku</a></li>
                                             <li><a href="">Verifikasi Penerimaan</a></li>
