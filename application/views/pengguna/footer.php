@@ -3,12 +3,18 @@
 			<div class="small-footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-							<p class="copyright center-me uppercase font-small">
+						<div class="col-md-9">
+							<p class="copyright right-me uppercase font-small">
 								<span>Rekayasa Kebutuhan 2016</span>
 								<a href="#">sipti</a>
 								<span> Didesain oleh</span>
-								<span>Kelompok 9</span>	
+								<span> Kelompok 9</span>	
+							</p>
+						</div>
+						<div class="col-md-3">
+							<p class="copyright left-me uppercase font-small">
+								<span>Login sebagai</span>
+								<a href="<?php echo base_url(); ?>sipti_controller/login_admin">admin</a>	
 							</p>
 						</div>
 					</div> <!-- /.row -->

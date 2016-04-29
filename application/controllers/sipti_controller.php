@@ -75,4 +75,10 @@ class sipti_controller extends CI_Controller {
 	{
 		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/koleksi buku pinjaman')->view('pengguna/akun/footer');
 	}
+
+	/*Admin*/
+	public function login_admin()
+	{
+		$this->load->view('admin/masuk');
+	}
 }
