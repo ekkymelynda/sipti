@@ -33,9 +33,20 @@ class sipti_controller extends CI_Controller {
 		$this->load->view('pengguna/header')->view('pengguna/masuk')->view('pengguna/footer');
 	}
 
+
+	/*Menu Cari Buku*/
 	public function lihat_semua_buku()
 	{
 		$this->load->view('pengguna/akun/header')->view('pengguna/akun/cari buku/lihat semua buku')->view('pengguna/akun/footer');
+	}
+	
+	public function form_peminjaman()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/cari buku/form peminjaman')->view('pengguna/akun/footer');
+	}
+	public function notifikasi_form()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/cari buku/notifikasi form')->view('pengguna/akun/footer');
 	}
 
 	/*Menu Profil*/

@@ -87,7 +87,7 @@
 											</tr>
 											<tr>
 												<td>2</td>
-												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Mardiana Sekarsari</a></td>
+												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_2">Mardiana Sekarsari</a></td>
 												<td>5 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
@@ -97,7 +97,7 @@
 											</tr>
 											<tr>
 												<td>2</td>
-												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Ekky Melynda</a></td>
+												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a></td>
 												<td>6 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
