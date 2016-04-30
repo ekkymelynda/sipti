@@ -29,7 +29,8 @@
 												<h3 class="blog-title text-dark-blue font-300">Hujan</h3>
 												<ol class="inline-list tag-list font-small">
 													<li>
-														<a class="button-sm green text-white hover-green hover-text-white">Tidak Dipinjam</a>
+														<a class="button-sm green text-white hover-green hover-text-white">Dipinjam</a>
+	
 													</li>
 												</ol>
 												
@@ -80,27 +81,27 @@
 												<td>10 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
-														<a href="<?php echo base_url(); ?>sipti_controller/lihat_calon_peminjam_2" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
+														Dipinjamkan
 													</p>
 												</td>
 											</tr>
 											<tr>
 												<td>2</td>
-												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_2">Mardiana Sekarsari</a></td>
+												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Mardiana Sekarsari</a></td>
 												<td>5 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
-														<a href="#" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
+														<a class="read-more soft-corners text-white button-sm hover-orange blue">Tidak Dipinjamkan</a>
 													</p>
 												</td>
 											</tr>
 											<tr>
 												<td>2</td>
-												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a></td>
+												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Ekky Melynda</a></td>
 												<td>6 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
-														<a href="#" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
+														<a class="read-more soft-corners text-white button-sm hover-orange blue">Tidak Dipinjamkan</a>
 													</p>
 												</td>
 											</tr>
@@ -111,6 +112,4 @@
 						
 					</div><!-- /.row -->
 				</div><!-- /.container -->
-
-
-		
+	

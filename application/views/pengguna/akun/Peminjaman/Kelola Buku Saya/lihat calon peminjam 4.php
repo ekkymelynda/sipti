@@ -75,34 +75,7 @@
 												<td></td>
 											</tr>
 											<tr>
-												<td>1</td>
-												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Qonita Luthfia S</a></td>
-												<td>10 hari</td>
-												<td>
-													<p class="clearfix" style="text-align:center">
-														<a href="<?php echo base_url(); ?>sipti_controller/lihat_calon_peminjam_2" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
-													</p>
-												</td>
-											</tr>
-											<tr>
-												<td>2</td>
-												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_2">Mardiana Sekarsari</a></td>
-												<td>5 hari</td>
-												<td>
-													<p class="clearfix" style="text-align:center">
-														<a href="#" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
-													</p>
-												</td>
-											</tr>
-											<tr>
-												<td>2</td>
-												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a></td>
-												<td>6 hari</td>
-												<td>
-													<p class="clearfix" style="text-align:center">
-														<a href="#" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
-													</p>
-												</td>
+												<td colspan="4" style="text-align:center">Tidak ada peminjam</td>
 											</tr>
 										</tbody>
 									</table>
@@ -111,6 +84,4 @@
 						
 					</div><!-- /.row -->
 				</div><!-- /.container -->
-
-
-		
+	
