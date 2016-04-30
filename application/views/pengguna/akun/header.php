@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sistem Informasi Peminjaman Buku Teknik Informatika</title>
+    <title>Sistem Informasi Peminjaman Buku Teknik Informatika ITS</title>
     <meta name="description" content="Great theme for creative people">
     <!-- Responsive helper -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -72,20 +72,11 @@
                                 <ul class="clean-list to-right">
                                     <!-- .to-right, to-left, .center-me helper class-->
                                     <li ><a href="<?php echo base_url(); ?>sipti_controller/lihat_semua_buku">HALAMAN AWAL</a></li>
-                                    <li ><a href="">BUKU</a>
-                                        <ul>
-                                            <li><a href="<?php echo base_url(); ?>sipti_controller/daftarkan_buku">Daftarkan Buku</a></li>
-                                            <li><a href="<?php echo base_url(); ?>sipti_controller/lihat_daftar_buku">Lihat Daftar Buku</a></li>
-                                        </ul>
-                                    </li>
                                     <li ><a href="<?php echo base_url(); ?>sipti_controller/lihat_semua_buku">CARI BUKU</a></li>
                                     <li ><a href="">PEMINJAMAN</a>
                                         <ul>
-                                            <li><a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku">Koleksi Buku</a></li>
-                                            <li><a href="<?php echo base_url(); ?>sipti_controller/koleksi_bukupinjaman">Koleksi Buku Pinjaman</a></li>
-                                            <li><a href="">Verifikasi Peminjam</a></li>
-                                            <li><a href="">Pengembalian Buku</a></li>
-                                            <li><a href="">Verifikasi Penerimaan</a></li>
+                                            <li><a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku_saya">Kelola Buku Saya</a></li>
+                                            <li><a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku_pinjaman">Kelola Buku Pinjaman</a></li>
                                         </ul>
                                     
                                     <li ><a href="">PROFIL</a>

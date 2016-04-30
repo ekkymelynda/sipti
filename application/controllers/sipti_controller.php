@@ -33,15 +33,6 @@ class sipti_controller extends CI_Controller {
 		$this->load->view('pengguna/header')->view('pengguna/masuk')->view('pengguna/footer');
 	}
 
-	public function daftarkan_buku()
-	{
-		$this->load->view('pengguna/akun/header')->view('pengguna/akun/buku/daftarkan buku')->view('pengguna/akun/footer');
-	}
-
-	public function lihat_daftar_buku()
-	{
-		$this->load->view('pengguna/akun/header')->view('pengguna/akun/buku/lihat daftar buku')->view('pengguna/akun/footer');
-	}
 
 	public function lihat_semua_buku()
 	{
@@ -59,21 +50,39 @@ class sipti_controller extends CI_Controller {
 	}
 
 	/*Menu Peminjaman*/
-	public function koleksi_buku()
+
+	/*Kelola Buku Pinjaman*/
+	
+	public function koleksi_buku_pinjaman()
 	{
-		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/koleksi buku')->view('pengguna/akun/footer');
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/kelola buku pinjaman/koleksi buku pinjaman')->view('pengguna/akun/footer');
 	}
+	public function verifikasi_peminjaman()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/kelola buku pinjaman/verifikasi peminjaman')->view('pengguna/akun/footer');
+	}
+	
+
+	/*Kelola Buku Saya*/
+
+	public function daftarkan_buku()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/kelola buku saya/daftarkan buku')->view('pengguna/akun/footer');
+	}
+
+	public function koleksi_buku_saya()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/kelola buku saya/koleksi buku saya')->view('pengguna/akun/footer');
+	}
+
+	public function lihat_calon_peminjam()
+	{
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/kelola buku saya/lihat calon peminjam')->view('pengguna/akun/footer');
+	}
+
 	public function ubah_buku()
 	{
-		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/ubah buku')->view('pengguna/akun/footer');
-	}
-	public function lihat_peminjam()
-	{
-		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/lihat peminjam')->view('pengguna/akun/footer');
-	}
-	public function Koleksi_bukupinjaman()
-	{
-		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/koleksi buku pinjaman')->view('pengguna/akun/footer');
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/kelola buku saya/ubah buku')->view('pengguna/akun/footer');
 	}
 
 	/*Admin*/
