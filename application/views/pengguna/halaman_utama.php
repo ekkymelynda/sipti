@@ -84,8 +84,8 @@
 										</figure>
 										<div class="rooms-description">
 											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
+												Manajemen Database Systems telah dengan cepat menjadi salah satu teks terkemuka untuk program database
+												dikenal dengan penekanan praktis dan cakupan yang luas. <br>
 											</p>
 											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
 										</div>
