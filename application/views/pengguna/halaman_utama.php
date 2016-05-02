@@ -57,95 +57,73 @@
 							<ul class="clean-list rooms-items">
 								<li>
 									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Engineering Mathematics: 7th Edition</a></h3>
-										<figure>
-											<a href="http://ecx.images-amazon.com/images/I/51prssbVfrL._SX390_BO1,204,203,200_.jpg" class="zoom-image" title="Engineering Mathematics: 7th Edition" rel="gallery-1"><img src="http://ecx.images-amazon.com/images/I/51prssbVfrL._SX390_BO1,204,203,200_.jpg" alt="portfolio item"></a>
-											<figcaption class="aquablue text-white">
-												
-											</figcaption>
-										</figure>
-										<div class="rooms-description">
-											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
-											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Database Management Systems, 3rd Edition</a></h3>
-										<figure>
-											<a href="http://ecx.images-amazon.com/images/I/51AcjY2mWgL._SX358_BO1,204,203,200_.jpg" class="zoom-image" title="Database Management Systems, 3rd Edition" rel="gallery-1"><img src="http://ecx.images-amazon.com/images/I/51AcjY2mWgL._SX358_BO1,204,203,200_.jpg" alt="portfolio item"></a>
-											<figcaption class="aquablue text-white">
-												
-											</figcaption>
-										</figure>
-										<div class="rooms-description">
-											<p>
-												Manajemen Database Systems telah dengan cepat menjadi salah satu teks terkemuka untuk program database
-												dikenal dengan penekanan praktis dan cakupan yang luas. <br>
-											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="text-center">
 										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Hujan</a></h3>
-										<br>
 										<figure>
-											<a href="http://d.gr-assets.com/books/1451905281l/28446637.jpg" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://d.gr-assets.com/books/1451905281l/28446637.jpg" alt="portfolio item"></a>
+											<a href="<?php echo base_url(); ?>assets/img/buku-4.jpg" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="<?php echo base_url(); ?>assets/img/buku-4.jpg" alt="portfolio item"></a>
 											<figcaption class="aquablue text-white">
 												
 											</figcaption>
 										</figure>
 										<div class="rooms-description">
 											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
+												Dalam novel ini kamu akan merasakan bagaimana rasanya harus tegar ketika ditempa masalah, melangkah maju ketika masalah begitu berat, dan rasanya jatuh cinta. <br>
 											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
+											
 										</div>
 									</div>
 								</li>
 								<li>
 									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Head First Design Patterns 1st Edition</a></h3>
+										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Design Patterns</a></h3>
 										<figure>
-											<a href="http://ecx.images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg" class="zoom-image" title="Head First Design Patterns 1st Edition" rel="gallery-1"><img src="http://ecx.images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg" alt="portfolio item"></a>
+											<a href="<?php echo base_url(); ?>assets/img/buku-3.jpg" class="zoom-image" title="Head First Design Patterns 1st Edition" rel="gallery-1"><img src="<?php echo base_url(); ?>assets/img/buku-3.jpg" alt="portfolio item"></a>
 											<figcaption class="aquablue text-white">
 												
 											</figcaption>
 										</figure>
 										<div class="rooms-description">
 											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
+												Head First Java memberikan pengalaman, pembelajaran yang sangat interaktif multiindrawi yang memungkinkan programmer baru mengambil dasar-dasar bahasa Jawa dengan cepat. <br>
 											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
+											
 										</div>
 									</div>
 								</li>
 								<li>
 									<div class="text-center">
-										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">A Copy of My Mind</a></h3>
+										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Database Management</a></h3>
 										<figure>
-											<a href="http://wpc.21684.lambdacdn.net/8021684/cdn/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/-/a-copy-of-my-mind.jpg" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="http://wpc.21684.lambdacdn.net/8021684/cdn/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/-/a-copy-of-my-mind.jpg" alt="portfolio item"></a>
+											<a href="<?php echo base_url(); ?>assets/img/buku-2.jpg" class="zoom-image" title="Hotelia rooms" rel="gallery-1"><img src="<?php echo base_url(); ?>assets/img/buku-2.jpg" alt="portfolio item"></a>
 											<figcaption class="aquablue text-white">
 												
 											</figcaption>
 										</figure>
 										<div class="rooms-description">
 											<p>
-												Warm within me, that it might be the mirror of my soul, 
-												as my soul is the mirror <br> of the infinite God!
+												Data Base Management System adalah buku perangkat lunak sistem yang memungkinkan para pemakai membuat, memelihara, mengontrol, dan meng-akses basis data dengan cara praktis dan efisien. <br>
 											</p>
-											<a href="#" class="button-md center-me grey text-black hover-orange soft-corners long-button"> <i class="icon-382"></i>View</a>
+											
 										</div>
 									</div>
 								</li>
+								<li>
+									<div class="text-center">
+										<h3 class="text-dark-blue"><a href="#" class="text-dark-blue hover-text-aquablue">Eng. Math</a></h3>
+										<figure>
+											<a href="<?php echo base_url(); ?>assets/img/buku-1.jpg" class="zoom-image" title="Head First Design Patterns 1st Edition" rel="gallery-1"><img src="<?php echo base_url(); ?>assets/img/buku-1.jpg" alt="portfolio item"></a>
+											<figcaption class="aquablue text-white">
+												
+											</figcaption>
+										</figure>
+										<div class="rooms-description">
+											<p>
+												Buku ini adalah buku tentang matematika teknik lanjut karya erwin kreyszig edisi terbaru yaitu edisi 7 bagus dan dapat mengerti secara langsung matematika teknik. <br>
+											</p>
+											
+										</div>
+									</div>
+								</li>
+								
 							</ul> <!-- /.rooms-items -->
 						</div>
 					</div>
