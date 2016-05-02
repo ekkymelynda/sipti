@@ -37,7 +37,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<textarea>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>
+												<textarea>Dalam novel ini kamu akan merasakan bagaimana rasanya harus tegar ketika ditempa masalah, melangkah maju ketika masalah begitu berat, dan rasanya jatuh cinta.</textarea>
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">

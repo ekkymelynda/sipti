@@ -1,27 +1,16 @@
 <!-- main content -->
-		<section class="box">
-			<div class="container">
-					<div class="col-md-12">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="text-dark-blue text-center fancy-heading">
-									<h1 class="font-700">Cari Buku</h1>
-									<hr class="text-dark-blue size-30 center-me">
-									<br>			
-								</div>
-							</div>
-						</div>
-						<div class="booking-form" style="margin-top:-50px">
-							<form action="#" class="row no-padding">
-								<div class="col-md-10 col-sm-12">
-									<input type="text" class="text-dark" placeholder="Kata Kunci">
-								</div>
-								<div class="col-md-2 col-sm-12 text-right">
-									<button type="submit" class="button-md green hover-dark-green soft-corners">Cari</button>
-								</div>
-							</form>
-						</div>
-			<div class="row" style="">
+<section class="box">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-dark-blue text-center fancy-heading">
+					<h1 class="font-700">Koleksi Buku Pinjaman</h1>
+					<hr class="text-dark-blue size-30 center-me">
+					<br>			
+				</div>
+			</div>
+		</div> <!-- /.row -->
+		<div class="row">
 			<div class="col-md-12">
 				<ul class="clean-list row blog-post">
 					<li class="col-md-4 col-sm-6">
@@ -96,18 +85,74 @@
 									</div>
 									<div class="row">
 										<div class="col-md-3">
-											Pemilik
+											Status Peminjaman
 										</div>
 										<div class="col-md-1" style="text-align:center;">
 											:
 										</div>
 										<div class="col-md-8">
+											Accepted
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Pinjam
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											2 Mei 2016 <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Terima
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											- <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Durasi Peminjaman
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											5 hari <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Kembali
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											- <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
 											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Qonita Luthfia</a>
-										</div>																				
+										</div>
 									</div>
-									<div class="col-md-2" style="margin-left:-10px">
-														<a href="<?php echo base_url(); ?>sipti_controller/form_peminjaman" type="submit" class="button-md green hover-dark-green soft-corners"  style="padding-left:12px;padding-right:12px">Pinjam</a>
+									<div style="text-align:center;">
+										<a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku_pinjaman1" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi Terima Buku</a>
 									</div>
+									
 								</div>
 							</div>
 						</article>
@@ -168,7 +213,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Oreilly
+											XXX
 										</div>
 									</div>
 									<div class="row">
@@ -184,17 +229,69 @@
 									</div>
 									<div class="row">
 										<div class="col-md-3">
-											Pemilik
+											Status Peminjaman
 										</div>
 										<div class="col-md-1" style="text-align:center;">
 											:
 										</div>
 										<div class="col-md-8">
-											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a>
-										</div>																				
+											Return
+										</div>
 									</div>
-									<div class="col-md-2" style="margin-left:-10px">
-										<a href="<?php echo base_url(); ?>sipti_controller/form_peminjaman" type="submit" class="button-md green hover-dark-green soft-corners"  style="padding-left:12px;padding-right:12px">Pinjam</a>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Pinjam
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											3 Mei 2016 <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Terima
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											26 April 2016 <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Durasi Peminjaman
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											7 hari <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Kembali
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											2 Mei 2016 <i class="icon-1" type="button" onclick="verifikasi()" style="color:red; cursor:pointer"></i>
+										</div>
+										<div class="row">
+										<div class="col-md-5">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a>
+										</div>
+									</div>
 									</div>
 								</div>
 							</div>
@@ -218,11 +315,24 @@
 				</div>
 			</div> <!-- /.col-md-9 -->
 		</div> <!-- /.row -->			
-					</div>
-
-				</div>
-
-			</div>
-
-
-		</section> <!-- /.book-form -->
+	</div> <!-- /.container -->
+</section> <!-- /.blog-box -->
+</div><!-- /.boxed-view -->
+<script type="text/javascript">
+function verifikasi(){
+	swal("Warning!", "Buku waktunya untuk dikembalikan", "warning")
+}
+function accepted(){
+	swal
+	(
+		{"Selamat!", "Peminjam telah menyetujui peminjaman buku", "success"},
+		function(){
+    		window.location.href = 'login.html';
+	});
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/options.js"></script>
+</body>
+</html>

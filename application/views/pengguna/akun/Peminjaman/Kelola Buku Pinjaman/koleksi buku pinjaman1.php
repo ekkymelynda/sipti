@@ -36,7 +36,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Dalam novel ini kamu akan merasakan bagaimana rasanya harus tegar ketika ditempa masalah, melangkah maju ketika masalah begitu berat, dan rasanya jatuh cinta.
 										</div>
 									</div>
 									<div class="row">
@@ -47,7 +47,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Novel
+											Sastra dan Fiksi
 										</div>
 									</div>
 									<div class="row">
@@ -91,7 +91,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Requested
+											Accepted
 										</div>
 									</div>
 									<div class="row">
@@ -138,10 +138,17 @@
 											7 Mei 2016 <i class></i>
 										</div>
 									</div>
-									<div style="text-align:center;">
-										<a href="" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi Terima Buku</a>
+									<div class="row">
+										<div class="col-md-5">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Qonita Luthfia</a>
+										</div>
 									</div>
-									
 								</div>
 							</div>
 						</article>
@@ -169,7 +176,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Head First Java memberikan pengalaman, pembelajaran yang sangat interaktif multiindrawi yang memungkinkan programmer baru mengambil dasar-dasar bahasa Jawa dengan cepat. 
 										</div>
 									</div>
 									<div class="row">
@@ -272,8 +279,16 @@
 										</div>
 										
 									</div>
-									<div style="text-align:center;">
-										<a href="" class="read-more soft-corners text-dark button-sm grey ">Verifikasi Terima Buku</a>
+									<div class="row">
+										<div class="col-md-5">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a>
+										</div>
 									</div>
 								</div>
 							</div>

@@ -37,7 +37,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<textarea>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>
+												<textarea>Head First Java memberikan pengalaman, pembelajaran yang sangat interaktif multiindrawi yang memungkinkan programmer baru mengambil dasar-dasar bahasa Jawa dengan cepat. </textarea>
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">
@@ -85,7 +85,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<input type="text" name="tel" placeholder="Telephone Number" value="XXX">
+												<input type="text" name="tel" placeholder="Telephone Number" value="Oreilley">
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">

@@ -36,7 +36,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Dalam novel ini kamu akan merasakan bagaimana rasanya harus tegar ketika ditempa masalah, melangkah maju ketika masalah begitu berat, dan rasanya jatuh cinta.
 										</div>
 									</div>
 									<div class="row">
@@ -47,7 +47,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Novel
+											Sastra dan Fiksi
 										</div>
 									</div>
 									<div class="row">
@@ -91,7 +91,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Requested
+											Requested <i class="icon-1" type="button" onclick="accepted()" style="color:red; cursor:pointer"></i>
 										</div>
 									</div>
 									<div class="row">
@@ -138,6 +138,17 @@
 											- <i class></i>
 										</div>
 									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Qonita Luthfia</a>
+										</div>
+									</div>
 									<div style="text-align:center;">
 										<a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku_pinjaman1" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi Terima Buku</a>
 									</div>
@@ -169,7 +180,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Head First Java memberikan pengalaman, pembelajaran yang sangat interaktif multiindrawi yang memungkinkan programmer baru mengambil dasar-dasar bahasa Jawa dengan cepat. 
 										</div>
 									</div>
 									<div class="row">
@@ -270,10 +281,17 @@
 										<div class="col-md-6">
 											2 Mei 2016 <i class="icon-1" type="button" onclick="verifikasi()" style="color:red; cursor:pointer"></i>
 										</div>
-										
+										<div class="row">
+										<div class="col-md-5">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a>
+										</div>
 									</div>
-									<div style="text-align:center;">
-										<a href="" class="read-more soft-corners text-dark button-sm grey ">Verifikasi Terima Buku</a>
 									</div>
 								</div>
 							</div>
@@ -303,6 +321,16 @@
 <script type="text/javascript">
 function verifikasi(){
 	swal("Warning!", "Buku waktunya untuk dikembalikan", "warning")
+}
+function accepted(){
+	swal({ 
+		  title: "Selamat!",
+		   text: "Peminjam telah menyetujui peminjaman buku",
+		    type: "success" 
+		  },
+		  function(){
+		    window.location.href = '<?php echo base_url(); ?>sipti_controller/koleksi_buku_pinjamanditerima';
+		});
 }
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

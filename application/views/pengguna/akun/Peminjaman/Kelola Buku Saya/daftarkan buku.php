@@ -51,7 +51,11 @@
 								<textarea name="text" placeholder="Deskripsi"></textarea>
 							</p>
 							<p class="col-md-12">
-								<input type="text" name="email" placeholder="Status">
+								<select name="tahun">
+									<option value="">Status</option>
+			                        <option value="">Dipinjam</option>
+			                        <option value="">Tidak Dipinjam</option>
+			                    </select>
 							</p>
 							<p class="col-md-12">
 								<input type="text" name="web" placeholder="Link Gambar">

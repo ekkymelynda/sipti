@@ -38,7 +38,7 @@
 													<form action="#" class="row no-padding">
 														<div class="col-md-10 col-sm-9">
 															<h4>Deskripsi :</h4>
-															Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+															Head First Java memberikan pengalaman, pembelajaran yang sangat interaktif multiindrawi yang memungkinkan programmer baru mengambil dasar-dasar bahasa Jawa dengan cepat. 
 														</div>
 														<div class="col-md-10" style="margin-bottom:-50px">
 														<hr>

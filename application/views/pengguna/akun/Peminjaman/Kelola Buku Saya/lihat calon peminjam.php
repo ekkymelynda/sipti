@@ -37,7 +37,7 @@
 													<form action="#" class="row no-padding">
 														<div class="col-md-10 col-sm-9">
 															<h4>Deskripsi :</h4>
-															Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+															Dalam novel ini kamu akan merasakan bagaimana rasanya harus tegar ketika ditempa masalah, melangkah maju ketika masalah begitu berat, dan rasanya jatuh cinta.
 														</div>
 														<div class="col-md-10" style="margin-bottom:-50px">
 														<hr>
