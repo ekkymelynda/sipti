@@ -77,7 +77,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12 col-md-offset-5">
-									<a href="#" class="button-md blue text-dark hover-orange" data-target="prev" style="color:white;">Ubah</a>
+									<a href="<?php echo base_url(); ?>sipti_controller/halaman_profil" class="button-md blue text-dark hover-orange" data-target="prev" style="color:white;">Ubah</a>
 								</div>
 							</div>
 							</form>
