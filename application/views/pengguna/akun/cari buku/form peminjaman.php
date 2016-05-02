@@ -12,7 +12,7 @@
 				</div> <!-- /.row -->
 
 					<div class="col-md-12">
-						<form class="contact-form row">
+						<form action="<?php echo base_url(); ?>sipti_controller/lihat_peminjaman" method="post" class="contact-form row">
 							<p class="col-md-12">
 								<input type="text" name="" placeholder="NRP">
 							</p>
@@ -20,7 +20,7 @@
 								<input type="text" name="" placeholder="Durasi Pinjam">
 							</p>
 							<p class="col-md-12">
-								<button type="button" onclick="verifikasi()" class="button-md uppercase to-right hover-dark-green green text-white soft-corners medium-button">Pinjam</button>
+								<button type="submit" class="button-md uppercase to-right hover-dark-green green text-white soft-corners medium-button">Pinjam</button>
 							</p>
 						</form>
 					</div>
@@ -34,6 +34,7 @@
 					  title: "Apakah anda yakin untuk meminjam buku ini?",
 					  type: "success",
 					  showCancelButton: true,
+					  CancelButtonText: "Batal",
 					  confirmButtonClass: "btn-danger",
 					  confirmButtonText: "Ya",
 					  closeOnConfirm: false
