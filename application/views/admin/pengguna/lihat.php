@@ -28,12 +28,26 @@
             </thead>
             <tbody>
               <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>   
-            </tr>
+                 <td>5113100093</td>
+                 <td>Ekky Melynda</td>
+                 <td>e</td>
+                 <td>Jl. Perumdos ITS</td>
+                 <td>081234567890</td>   
+              </tr>
+              <tr>
+                 <td>5113100051</td>
+                 <td>Mardiana Sekarsari</td>
+                 <td>m</td>
+                 <td>Jl. Perumdos ITS</td>
+                 <td>081234567890</td>   
+              </tr>
+              <tr>
+                 <td>5113100192</td>
+                 <td>Qonita Luthfia Sutino</td>
+                 <td>q</td>
+                 <td>Jl. Perumdos ITS</td>
+                 <td>081234567890</td>   
+              </tr>
             </tbody>
           </table>
           

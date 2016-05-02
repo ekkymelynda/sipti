@@ -80,7 +80,7 @@
             <input type="checkbox" id="inputCheckbox" name="checkbox">
             <label for="inputCheckbox">Ingat saya</label>
           </div>
-          <a class="pull-right" href="<?php echo base_url(); ?>sipti_controller/halaman_utama">Halaman Utama</a>
+          <a class="pull-right" href="<?php echo base_url(); ?>sipti_controller/halaman_utama_pengguna">Halaman Utama</a>
         </div>
         <button type="submit" class="btn btn-primary btn-block">Masuk</button>
       </form>
