@@ -90,17 +90,17 @@
 												<td>5 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
-														<a href="#" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
+														<a href="<?php echo base_url(); ?>sipti_controller/lihat_calon_peminjam_2" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
 													</p>
 												</td>
 											</tr>
 											<tr>
-												<td>2</td>
+												<td>3</td>
 												<td><a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a></td>
 												<td>6 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
-														<a href="#" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
+														<a href="<?php echo base_url(); ?>sipti_controller/lihat_calon_peminjam_2" class="read-more soft-corners text-white button-sm hover-orange blue">Pinjamkan</a>
 													</p>
 												</td>
 											</tr>

@@ -81,7 +81,8 @@
 												<td>10 hari</td>
 												<td>
 													<p class="clearfix" style="text-align:center">
-														Dipinjamkan
+													<a href="<?php echo base_url(); ?>sipti_controller/lihat_calon_peminjam_3" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi Kembali</a>
+
 													</p>
 												</td>
 											</tr>

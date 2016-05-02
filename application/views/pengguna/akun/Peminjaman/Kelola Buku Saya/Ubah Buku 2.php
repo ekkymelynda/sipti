@@ -26,7 +26,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<input type="text" name="f_name" value= "Hujan">
+												<input type="text" name="f_name" value= "Head First Design Patterns 1st Edition">
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">
@@ -50,8 +50,8 @@
 											<div class="col-md-6">
 												<!--div class="col-md-12"-->
 													<select name="tahun">
+													  <option value="">Komputer & Teknologi</option>
 													  <option value="">Novel</option>
-							                          <option value="">Komputer & Teknologi</option>
 							                          <option value="">Seni & Fotografi</option>
 							                          <option value="">Biografi & Memori</option>
 							                          <option value="">Buku Anak-anak</option>
@@ -74,7 +74,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<input type="text" name="tel" placeholder="Telephone Number" value="Tere Liye">
+												<input type="text" name="tel" placeholder="Telephone Number" value="Eric Freeman, Elisabeth Robson">
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">
@@ -85,7 +85,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<input type="text" name="tel" placeholder="Telephone Number" value="Gramedia">
+												<input type="text" name="tel" placeholder="Telephone Number" value="XXX">
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">
@@ -107,7 +107,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<textarea>http://d.gr-assets.com/books/1451905281l/28446637.jpg</textarea>
+												<textarea>http://ecx.images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg</textarea>
 											</div>
 										</div>
 										<div class="col-md-9 col-md-offset-3">

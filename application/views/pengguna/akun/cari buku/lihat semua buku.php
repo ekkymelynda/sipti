@@ -94,25 +94,20 @@
 											2014
 										</div>
 									</div>
-									<div class="booking-form"  style="margin-left:-15px">
-													<form action="#" class="row no-padding">
-														<div class="col-md-9">
-															<i class="icon-201"></i>
-															<input type="text" readonly class="room-select" placeholder="Room" value="Lihat Pemilik Buku">
-															<ul class="clean-list font-small">
-																<li>Qonita Luthfia S</li>
-																<li>Mardiana Sekarsari</li>
-																<li>Ekky Melynda</li>
-															</ul>
-
-														</div>
-														<div class="col-md-2" style="margin-left:-10px">
-														<a href="<?php echo base_url(); ?>sipti_controller/form_peminjaman" type="submit" class="button-md green hover-dark-green soft-corners"  style="padding-left:12px;padding-right:12px">Pinjam</a>
-														</div>
-													</form>
+									<div class="row">
+										<div class="col-md-3">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-8">
+											Budi Santoso
+										</div>																				
 									</div>
-									<div class="col-md-2 col-sm-12 text-right">
-								</div>
+									<div class="col-md-2" style="margin-left:-10px">
+														<a href="<?php echo base_url(); ?>sipti_controller/form_peminjaman" type="submit" class="button-md green hover-dark-green soft-corners"  style="padding-left:12px;padding-right:12px">Pinjam</a>
+									</div>
 								</div>
 							</div>
 						</article>
@@ -187,22 +182,19 @@
 											2014
 										</div>
 									</div>
-									<div class="booking-form"  style="margin-left:-15px">
-													<form action="#" class="row no-padding">
-														<div class="col-md-9">
-															<i class="icon-201"></i>
-															<input type="text" readonly class="room-select" placeholder="Room" value="Lihat Pemilik Buku">
-															<ul class="clean-list font-small">
-																<li>Qonita Luthfia S</li>
-																<li>Mardiana Sekarsari</li>
-																<li>Ekky Melynda</li>
-															</ul>
-
-														</div>
-														<div class="col-md-2" style="margin-left:-10px">
+									<div class="row">
+										<div class="col-md-3">
+											Pemilik
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-8">
+											Ananda 
+										</div>																				
+									</div>
+									<div class="col-md-2" style="margin-left:-10px">
 														<a href="<?php echo base_url(); ?>sipti_controller/form_peminjaman" type="submit" class="button-md green hover-dark-green soft-corners"  style="padding-left:12px;padding-right:12px">Pinjam</a>
-														</div>
-													</form>
 									</div>
 								</div>
 							</div>

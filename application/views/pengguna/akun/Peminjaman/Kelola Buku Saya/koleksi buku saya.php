@@ -107,7 +107,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Dipinjam
+											Tidak Dipinjam
 										</div>
 									</div>
 									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
@@ -194,10 +194,10 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Tidak Dipinjam
+											Dipinjam
 										</div>
 									</div>
-									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
+									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku_2" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
 									<a href="<?php echo base_url(); ?>sipti_controller/lihat_peminjam" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
 								</div>
 							</div>
