@@ -67,8 +67,8 @@
       <p>Masuk ke halaman akun Anda</p>
       <form method="post" action="<?php echo base_url(); ?>sipti_controller/profil_lihat">
         <div class="form-group">
-          <label class="sr-only" for="inputName">NRP</label>
-          <input type="text" class="form-control" id="inputName" name="" placeholder="NRP">
+          <label class="sr-only" for="inputName">Username</label>
+          <input type="text" class="form-control" id="inputName" name="" placeholder="Username">
         </div>
         <div class="form-group">
           <label class="sr-only" for="inputPassword">Password</label>

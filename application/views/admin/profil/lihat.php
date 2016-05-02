@@ -17,29 +17,14 @@
                 <h4 class="example-title">Lihat Profil</h4>
                 <div class="example">
                     <div class="form-group">
-                        <label class="control-label" for="inputBasicFirstName">NRP</label>
+                        <label class="control-label" for="inputBasicFirstName"><b>Username</b></label>
                         <br>
-                        <label></label>
+                        <label>adminsipti</label>
                     </div>
                     <div class="form-group">
-                        <label class="control-label" for="inputBasicFirstName">Nama</label>
-                        <br>
-                        <label></label>
-                    </div>
-                    <div class="form-group">
-                      <label class="control-label" for="inputBasicEmail">Password</label>
+                      <label class="control-label" for="inputBasicEmail"><b>Password</b></label>
                       <br>
-                      <label></label>
-                    </div>
-                    <div class="form-group">
-                      <label class="control-label" for="inputBasicPassword">Alamat</label>
-                      <br>
-                      <label></label>
-                    </div>
-                    <div class="form-group">
-                      <label class="control-label" for="inputBasicPassword">No Telp</label>
-                      <br>
-                      <label></label>
+                      <label>12345</label>
                     </div>
                 </div>
               </div>
