@@ -28,8 +28,12 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets1/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap-responsive.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/screen.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/sweetalert.css">
+    <script src="<?php echo base_url(); ?>assets/js/sweetalert.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/sweetalert-dev.js"></script>
 
     <script src="<?php echo base_url(); ?>assets/js/modernizr.js"></script>
 </head>

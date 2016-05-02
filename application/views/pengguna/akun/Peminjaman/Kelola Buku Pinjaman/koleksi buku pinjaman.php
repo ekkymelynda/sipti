@@ -85,17 +85,61 @@
 									</div>
 									<div class="row">
 										<div class="col-md-3">
-											Durasi Peminjaman
+											Status Peminjaman
 										</div>
 										<div class="col-md-1" style="text-align:center;">
 											:
 										</div>
 										<div class="col-md-8">
-											5 hari
+											Requested
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Pinjam
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											3 Mei 2016 <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Terima
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											- <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Durasi Peminjaman
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											5 hari <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Kembali
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											- <i class></i>
 										</div>
 									</div>
 									<div style="text-align:center;">
-										<a href="" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi</a>
+										<a href="" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi Terima Buku</a>
 									</div>
 									
 								</div>
@@ -174,17 +218,62 @@
 									</div>
 									<div class="row">
 										<div class="col-md-3">
-											Durasi Peminjaman
+											Status Peminjaman
 										</div>
 										<div class="col-md-1" style="text-align:center;">
 											:
 										</div>
 										<div class="col-md-8">
-											7 hari
+											Return
 										</div>
 									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Pinjam
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											3 Mei 2016 <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Terima
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											4 Mei 2016 <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Durasi Peminjaman
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											7 hari <i class></i>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-5">
+											Tanggal Kembali
+										</div>
+										<div class="col-md-1" style="text-align:center;">
+											:
+										</div>
+										<div class="col-md-6">
+											10 Mei 2016 <i class="icon-1" type="button" onclick="verifikasi()" style="color:red; cursor:pointer"></i>
+										</div>
+										
+									</div>
 									<div style="text-align:center;">
-										<a href="" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi</a>
+										<a href="" class="read-more soft-corners text-dark button-sm hover-orange grey ">Verifikasi Terima Buku</a>
 									</div>
 								</div>
 							</div>
@@ -211,7 +300,11 @@
 	</div> <!-- /.container -->
 </section> <!-- /.blog-box -->
 </div><!-- /.boxed-view -->
-
+<script type="text/javascript">
+function verifikasi(){
+	swal("Warning!", "Buku waktunya untuk dikembalikan", "warning")
+}
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/options.js"></script>
