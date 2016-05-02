@@ -11,12 +11,6 @@
 								<span> Kelompok 9</span>	
 							</p>
 						</div>
-						<div class="col-md-3">
-							<p class="copyright left-me uppercase font-small">
-								<span>Login sebagai</span>
-								<a href="<?php echo base_url(); ?>sipti_controller/login_admin">admin</a>	
-							</p>
-						</div>
 					</div> <!-- /.row -->
 				</div>			
 			</div><!-- /.small-footer -->			
