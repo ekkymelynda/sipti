@@ -14,7 +14,7 @@
 						<div class="booking-form" style="margin-top:-50px">
 							<form action="#" class="row no-padding">
 								<div class="col-md-10 col-sm-12">
-									<input type="text" class="text-white" placeholder="Kata Kunci">
+									<input type="text" class="text-dark" placeholder="Kata Kunci">
 								</div>
 								<div class="col-md-2 col-sm-12 text-right">
 									<button type="submit" class="button-md green hover-dark-green soft-corners">Cari</button>
