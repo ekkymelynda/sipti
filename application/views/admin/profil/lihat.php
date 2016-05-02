@@ -19,7 +19,7 @@
                     <div class="form-group">
                         <label class="control-label" for="inputBasicFirstName"><b>Username</b></label>
                         <br>
-                        <label>adminsipti</label>
+                        <label>adminsipti@gmail.com</label>
                     </div>
                     <div class="form-group">
                       <label class="control-label" for="inputBasicEmail"><b>Password</b></label>
