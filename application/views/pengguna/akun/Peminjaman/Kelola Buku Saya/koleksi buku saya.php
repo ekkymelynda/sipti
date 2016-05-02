@@ -197,13 +197,9 @@
 											Dipinjam
 										</div>
 									</div>
-<<<<<<< HEAD
 									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku_2" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
-									<a href="<?php echo base_url(); ?>sipti_controller/lihat_peminjam" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
-=======
-									<a href="<?php echo base_url(); ?>sipti_controller/ubah_buku" class="read-more to-right soft-corners text-dark button-sm hover-orange grey">Ubah</a>
-									<a href="<?php echo base_url(); ?>sipti_controller/lihat_calon_peminjam" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
->>>>>>> d1eb4526de4207ebac59450d08a3d8e63f56c8ef
+									<a href="<?php echo base_url(); ?>sipti_controller/lihat_calon_peminjam_6" class="read-more to-left soft-corners text-dark button-sm hover-orange grey">Lihat Peminjam</a>
+
 								</div>
 							</div>
 						</article>
