@@ -62,17 +62,6 @@
 												<input type="text" name="tel" placeholder="Telephone Number" value="Jl. Perumdos ITS" disabled>
 											</div>
 										</div>
-										<div class="col-md-9 col-md-offset-3">
-											<div class="col-md-2">
-												<p>Password</p>
-											</div>
-											<div class="col-md-1">
-												<p>:</p>
-											</div>
-											<div class="col-md-6">
-												<input type="text" name="tel" placeholder="Telephone Number" value="m" disabled>
-											</div>
-										</div>
 								</div>
 							</div>
 							<div class="row">

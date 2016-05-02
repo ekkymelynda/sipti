@@ -102,7 +102,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Budi Santoso
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_4">Budi Santoso</a>
 										</div>																				
 									</div>
 									<div class="col-md-2" style="margin-left:-10px">
@@ -190,7 +190,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Ananda 
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_5">Ananda</a>
 										</div>																				
 									</div>
 									<div class="col-md-2" style="margin-left:-10px">

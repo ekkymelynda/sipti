@@ -67,6 +67,12 @@ class sipti_controller extends CI_Controller {
 	public function contoh_profil_3(){
 		$this->load->view('pengguna/akun/header')->view('pengguna/akun/profil/contoh profil 3')->view('pengguna/akun/footer');
 	}
+	public function contoh_profil_4(){
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/profil/contoh profil 4')->view('pengguna/akun/footer');
+	}
+	public function contoh_profil_5(){
+		$this->load->view('pengguna/akun/header')->view('pengguna/akun/profil/contoh profil 5')->view('pengguna/akun/footer');
+	}
 
 
 
@@ -149,6 +155,7 @@ class sipti_controller extends CI_Controller {
 	{
 		$this->load->view('pengguna/akun/header')->view('pengguna/akun/peminjaman/kelola buku saya/ubah buku 2')->view('pengguna/akun/footer');
 	}
+
 
 	/*Admin*/
 	public function login_admin()
