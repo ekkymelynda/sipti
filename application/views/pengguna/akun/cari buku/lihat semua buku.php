@@ -47,7 +47,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Dalam novel ini kamu akan merasakan bagaimana rasanya harus tegar ketika ditempa masalah, melangkah maju ketika masalah begitu berat, dan rasanya jatuh cinta.
 										</div>
 									</div>
 									<div class="row">
@@ -58,7 +58,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Novel
+											Sastra dan Fiksi
 										</div>
 									</div>
 									<div class="row">
@@ -102,7 +102,13 @@
 											:
 										</div>
 										<div class="col-md-8">
+<<<<<<< .mine
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Qonita Luthfia</a>
+||||||| .r57
+											Budi Santoso
+=======
 											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_4">Budi Santoso</a>
+>>>>>>> .r60
 										</div>																				
 									</div>
 									<div class="col-md-2" style="margin-left:-10px">
@@ -135,7 +141,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Head First Java memberikan pengalaman, pembelajaran yang sangat interaktif multiindrawi yang memungkinkan programmer baru mengambil dasar-dasar bahasa Jawa dengan cepat. 
 										</div>
 									</div>
 									<div class="row">
@@ -168,7 +174,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-											XXX
+											Oreilly
 										</div>
 									</div>
 									<div class="row">
@@ -190,7 +196,13 @@
 											:
 										</div>
 										<div class="col-md-8">
+<<<<<<< .mine
+											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_3">Ekky Melynda</a>
+||||||| .r57
+											Ananda 
+=======
 											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_5">Ananda</a>
+>>>>>>> .r60
 										</div>																				
 									</div>
 									<div class="col-md-2" style="margin-left:-10px">
