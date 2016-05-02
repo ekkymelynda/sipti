@@ -102,13 +102,7 @@
 											:
 										</div>
 										<div class="col-md-8">
-<<<<<<< .mine
 											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil">Qonita Luthfia</a>
-||||||| .r57
-											Budi Santoso
-=======
-											<a href="<?php echo base_url(); ?>sipti_controller/contoh_profil_4">Budi Santoso</a>
->>>>>>> .r60
 										</div>																				
 									</div>
 									<div class="col-md-2" style="margin-left:-10px">
