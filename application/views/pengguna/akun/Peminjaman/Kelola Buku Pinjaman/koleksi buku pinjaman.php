@@ -102,7 +102,7 @@
 											:
 										</div>
 										<div class="col-md-6">
-											3 Mei 2016 <i class></i>
+											2 Mei 2016 <i class></i>
 										</div>
 									</div>
 									<div class="row">
@@ -139,7 +139,7 @@
 										</div>
 									</div>
 									<div style="text-align:center;">
-										<a href="" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi Terima Buku</a>
+										<a href="<?php echo base_url(); ?>sipti_controller/koleksi_buku_pinjaman1" class="read-more soft-corners text-white button-sm hover-orange blue">Verifikasi Terima Buku</a>
 									</div>
 									
 								</div>
@@ -246,7 +246,7 @@
 											:
 										</div>
 										<div class="col-md-6">
-											4 Mei 2016 <i class></i>
+											26 April 2016 <i class></i>
 										</div>
 									</div>
 									<div class="row">
@@ -268,12 +268,12 @@
 											:
 										</div>
 										<div class="col-md-6">
-											10 Mei 2016 <i class="icon-1" type="button" onclick="verifikasi()" style="color:red; cursor:pointer"></i>
+											2 Mei 2016 <i class="icon-1" type="button" onclick="verifikasi()" style="color:red; cursor:pointer"></i>
 										</div>
 										
 									</div>
 									<div style="text-align:center;">
-										<a href="" class="read-more soft-corners text-dark button-sm hover-orange grey ">Verifikasi Terima Buku</a>
+										<a href="" class="read-more soft-corners text-dark button-sm grey ">Verifikasi Terima Buku</a>
 									</div>
 								</div>
 							</div>
