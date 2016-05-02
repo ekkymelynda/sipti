@@ -12,18 +12,34 @@
 				</div> <!-- /.row -->
 
 					<div class="col-md-12">
-						<form action="<?php echo base_url(); ?>sipti_controller/notifikasi_form" class="contact-form row">
+						<form class="contact-form row">
 							<p class="col-md-12">
-								<input type="text" name="name" placeholder="NRP">
+								<input type="text" name="" placeholder="NRP">
 							</p>
 							<p class="col-md-12">
-								<input type="text" name="email" placeholder="Durasi Pinjam">
+								<input type="text" name="" placeholder="Durasi Pinjam">
 							</p>
 							<p class="col-md-12">
-								<button type="submit" class="button-md uppercase to-right hover-dark-green green text-white soft-corners medium-button">Pinjam</button>
+								<button type="button" onclick="verifikasi()" class="button-md uppercase to-right hover-dark-green green text-white soft-corners medium-button">Pinjam</button>
 							</p>
 						</form>
 					</div>
 				</div> <!-- /.row -->
 			</div> <!-- /.container -->
 		</section> <!-- /.box -->
+
+		<script type="text/javascript">
+			function verifikasi(){
+				swal({
+					  title: "Apakah anda yakin untuk meminjam buku ini?",
+					  type: "success",
+					  showCancelButton: true,
+					  confirmButtonClass: "btn-danger",
+					  confirmButtonText: "Ya",
+					  closeOnConfirm: false
+},
+function(){
+  swal("Verified!", "Peminjaman buku berhasil dilakukan", "success");
+});
+			}
+		</script>
