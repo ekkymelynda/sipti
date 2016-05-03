@@ -70,7 +70,7 @@
 												<p>:</p>
 											</div>
 											<div class="col-md-6">
-												<input type="text" name="tel" placeholder="Telephone Number" value="CacaHandika12345" disabled>
+												<input type="text" name="tel" placeholder="Telephone Number" value="a" disabled>
 											</div>
 										</div>
 								</div>
